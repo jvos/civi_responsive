@@ -1,0 +1,6 @@
+name = Civi Responsive
+description = This is a public sub-theme, makes the public area responsive.
+core = 7.x
+base theme = civi_bartik
+
+stylesheets[all][] = css/style.css

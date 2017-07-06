@@ -1,0 +1,24 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: top;
+    
+    //padding-top: $padding-wrapper;
+    //padding-bottom: $padding-wrapper;
+    
+    @media (min-width: $screen-phone) {
+        width: 100%;
+    }
+    
+    @media (min-width: $screen-tablet) {
+        width: $screen-tablet - ($padding-wrapper*2);
+    }
+    
+    @media (min-width: $screen-desktop) {
+        width: $screen-desktop - ($padding-wrapper*2);
+    }
+    
+    @media (min-width: $screen-lg-desktop) {
+        width: $screen-lg-desktop - ($padding-wrapper*2);
+    }
+}

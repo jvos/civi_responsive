@@ -1,0 +1,20 @@
+@mixin list-inline(){
+    @extend .list-unstyled;
+}
+
+@mixin list-inline-tight(){
+    @include list-inline;
+    margin-left: 0;
+    font-size: 0;
+    
+    > li {
+      padding:0;
+      margin: 0;
+      font-size: $font-size-base;
+    }
+}
+
+@mixin list-style-none(){
+    list-style-type: none;
+    list-style-image: none;
+}
