@@ -1,10 +1,11 @@
+
 @import "partials/bootstrap";
 /* add site style here */
+
+@import "partials/civi_bartik";
 
 @import "partials/mixins";
 @import "partials/grid";
 @import "partials/base";
 
 @import "partials/form";
-
-@import "partials/civibartik";

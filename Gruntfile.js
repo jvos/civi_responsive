@@ -3,7 +3,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         watch: {
             css: {
-                files: 'css/sources/partials/*.scss',
+                files: 'css/sources/partials/**/*.scss',
                 tasks: ['sass:dev']
             },
         },
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
                     cwd: 'css/sources',
                     src: 'style.scss',
                     dest: 'css',
-                    ext: '.css'
+                    ext: '_civi_responsive.css'
                 }]
             },
             prod: {
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
                     cwd: 'css/sources',
                     src: 'style.scss',
                     dest: 'css',
-                    ext: '.css'
+                    ext: '_civi_responsive.css'
                 }]
             }
         },
